@@ -5,7 +5,7 @@ Conflicts=getty@tty1.service
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 ~/scripts/python/google_dns_service/main.py
+ExecStart=/usr/bin/python3 /scripts/python/google_dns_service/main.py
 StandardInput=tty-force
 
 [Install]
