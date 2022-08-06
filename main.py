@@ -52,7 +52,7 @@ def update_host(user, password, hostname, myip):
         ).text
     return
 
-with JsonConfig('/root/scripts/python/google_dns_service/config.json') as data:
+with JsonConfig('/scripts/python/google_dns_service/config.json') as data:
     while(True):
         try:
             data.reload()
